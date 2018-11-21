@@ -1,0 +1,24 @@
+{
+  "name": "mainer",
+  "version": "1.0.0",
+  "description": "Hakaton mainer",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsc --watch",
+    "built:watch": "nodemon ./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Volkodaf/mainer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Volkodaf/mainer/issues"
+  },
+  "homepage": "https://github.com/Volkodaf/mainer#readmez",
+  "devDependencies": {},
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
